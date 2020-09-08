@@ -11,6 +11,8 @@ HybridCar::~HybridCar() {
 }
 
 void HybridCar::restore() {
-    refuel();
-    charge();
+    ElectricCar::restore();
+    PetrolCar::restore();
+    // refuel();
+    // charge();
 }
