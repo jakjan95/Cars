@@ -28,7 +28,7 @@ int main()
     car->accelerate(80);
     car->brake();
     car->turnLeft();
-    //nissan.engine_ = new ElectricEngine(150, 700);  // Changing an engine during driving is not safe
+    //nissan.engine_ = new ElectricEngine(150, 700);  // now it is throwing an error
 
     std::cout << std::endl << "TOYOTA" << std::endl;
     HybridCar toyota(new PetrolEngine(80, 1400, 5), new ElectricEngine(100, 540));

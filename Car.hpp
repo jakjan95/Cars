@@ -9,6 +9,5 @@ public:
     void turnRight();
     void brake();
     void accelerate(int speed);
-
 };
 

@@ -9,7 +9,8 @@ public:
     ~ElectricCar();
 
     void restore() override;
-    void charge();
 
+private:
     ElectricEngine* engine_;
+    void charge();
 };

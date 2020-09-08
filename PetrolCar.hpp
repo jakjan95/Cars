@@ -9,7 +9,8 @@ public:
     ~PetrolCar();
 
     void restore() override;
-    void refuel();
-
+    
+private:
     PetrolEngine* engine_;
+    void refuel();
 };
