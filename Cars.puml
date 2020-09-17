@@ -4,11 +4,9 @@ class Car{
 
 }
 
-
 class ElectricCar{
 
 }
-
 
 class PetrolCar{
 
@@ -24,9 +22,6 @@ Car <|.down. PetrolCar
 ElectricCar <|-down- HybridCar
 PetrolCar <|-down- HybridCar
 
-
-
-
 class ElectricEngine{
 
 }
@@ -37,8 +32,4 @@ class PetrolEngine{
 
 PetrolEngine <-up-PetrolCar
 ElectricEngine <-up-ElectricCar
-
-
-
-
 @enduml

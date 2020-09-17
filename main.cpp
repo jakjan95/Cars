@@ -5,9 +5,7 @@
 
 int main()
 {
-
     Car* car = nullptr;
-
 
     std::cout << std::endl << "OPEL" << std::endl;
     PetrolCar opel(std::make_unique<PetrolEngine>(120, 1800, 6));
@@ -37,4 +35,5 @@ int main()
     car->accelerate(100);
     car->brake();
     car->restore();
+
 }
